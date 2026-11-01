@@ -1,0 +1,56 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #101a18;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    color: #a9bdb4;
+    margin-bottom: 40px;
+}
+
+.contador {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.tempo {
+    background: #23332d;
+    padding: 25px;
+    border-radius: 12px;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tempo span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.tempo small {
+    color: #a9bdb4;
+    text-transform: uppercase;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    color: #82948b;
+    font-size: 13px;
+}
