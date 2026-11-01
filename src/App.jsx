@@ -10,7 +10,7 @@ import "./App.css";
 
 function App() {
     const dataInicio = new Date(2026, 7, 3, 0, 0, 0);
-    const dataFinal = new Date(2026, 11, 18, 23, 59, 59);
+    const dataFinal = new Date(2026, 11, 15, 23, 59, 59);
 
     const [agora, setAgora] = useState(new Date());
 
